@@ -1,4 +1,4 @@
-package packt.com.packt.java.guava;
+package packt.guava;
 
 import static java.lang.System.out;
 

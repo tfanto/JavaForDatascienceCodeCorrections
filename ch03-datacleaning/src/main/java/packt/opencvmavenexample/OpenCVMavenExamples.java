@@ -1,4 +1,4 @@
-package opencvnonmavenexamples;
+package packt.opencvmavenexample;
 
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
@@ -9,13 +9,13 @@ import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
-public class OpenCVNonMavenExamples {
+public class OpenCVMavenExamples {
 	
 	public static String LOCATION =   "C:\\workspaces\\workspaceDataScience\\ch03-datacleaning\\src\\main\\resources\\";
 	public static String CAT = LOCATION + "Cat.jpg";
 	public static String GRAYSCALE_PARROT = LOCATION + "GrayScaleParrot.png";
 
-    public OpenCVNonMavenExamples() {
+    public OpenCVMavenExamples() {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
         enhanceImageBrightness();
         enhanceImageContrast();
@@ -29,7 +29,7 @@ public class OpenCVNonMavenExamples {
     }
 
     public static void main(String[] args) {
-        new OpenCVNonMavenExamples();
+        new OpenCVMavenExamples();
     }
 
     // Histogram equalization is used to improve the overall appearnace of an image. 

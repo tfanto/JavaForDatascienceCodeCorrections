@@ -4,7 +4,7 @@ import java.io.File;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;
 
-import common.Helper;
+import packt.helper.Helper;
 
 public class PDFExtractionExample {
 

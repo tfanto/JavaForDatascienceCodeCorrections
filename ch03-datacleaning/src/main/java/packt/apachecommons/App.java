@@ -1,4 +1,4 @@
-package packt.packt.com.java.apachecommons;
+package packt.apachecommons;
 
 import static java.lang.System.out;
 
