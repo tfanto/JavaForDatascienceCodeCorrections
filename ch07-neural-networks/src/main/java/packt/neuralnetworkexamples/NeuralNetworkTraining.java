@@ -1,3 +1,4 @@
+package packt.neuralnetworkexamples;
 import java.text.*;
 
 public class NeuralNetworkTraining {

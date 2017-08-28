@@ -1,3 +1,4 @@
+package packt.neuralnetworkexamples;
 /**
  * THIS CODE ADAPTED FROM: 
  * http://www.informit.com/articles/article.aspx?p=30596&seqNum=5
