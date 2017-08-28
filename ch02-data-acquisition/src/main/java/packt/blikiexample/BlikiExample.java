@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package packt;
+package packt.blikiexample;
 
 import info.bliki.api.Page;
 import info.bliki.api.User;
