@@ -1,4 +1,4 @@
-package com.packt.java.jayes;
+package packt.jbayes;
 
 import static java.lang.System.out;
 
