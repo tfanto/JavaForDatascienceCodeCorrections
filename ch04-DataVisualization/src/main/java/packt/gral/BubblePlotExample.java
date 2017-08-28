@@ -1,4 +1,4 @@
-package packt.com.packt.java.gral;
+package packt.gral;
 
 
 import java.awt.BorderLayout;
