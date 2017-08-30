@@ -1,12 +1,18 @@
 package com.mycompany.sentimentanalysis;
 
+import static java.lang.System.out;
+
+import java.util.List;
+
 import org.datavec.api.util.ClassPathResource;
+import org.deeplearning4j.berkeley.Pair;
 //import org.deeplearning4j.examples.nlp.paragraphvectors.tools.FileLabelAwareIterator;
 //import org.deeplearning4j.examples.nlp.paragraphvectors.tools.LabelSeeker;
 //import org.deeplearning4j.examples.nlp.paragraphvectors.tools.MeansBuilder;
 import org.deeplearning4j.models.embeddings.inmemory.InMemoryLookupTable;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;
 import org.deeplearning4j.models.word2vec.VocabWord;
+import org.deeplearning4j.text.documentiterator.FileLabelAwareIterator;
 import org.deeplearning4j.text.documentiterator.LabelAwareIterator;
 import org.deeplearning4j.text.documentiterator.LabelledDocument;
 import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.CommonPreprocessor;
@@ -14,14 +20,16 @@ import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFac
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.linalg.api.ndarray.INDArray;
 
-import static java.lang.System.out;
-import java.util.List;
+
+
 
 /**
  *
  * @author raver119@gmail.com adapted by Jennifer Reese
  */
 public class ParagraphVectorsClassifierExample {
+	
+	/*
 
     static ParagraphVectors pVect;
     static LabelAwareIterator iter;
@@ -76,4 +84,7 @@ public class ParagraphVectorsClassifierExample {
 
         }
     }
+    
+    */
+    
 }
